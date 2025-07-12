@@ -9,7 +9,7 @@ pip install cowsay
 
 Make a jokes.txt file at 
 ```
-touch ~.config/kitty/jokes.txt
+touch ~/.config/kitty/jokes.txt
 ```
 Write the jokes you want to display into it. Every joke has to be on a new line respectively.
 
