@@ -13,6 +13,12 @@ Make a jokes.txt file at
 ```
 Write the jokes you want to display into it. Every joke has to be on a new line respectively.
 
+If you want to use the script only in the kitty terminal paste this into your shell config:
+```
+if [ "$TERM" = "xterm-kitty" ]; then
+    ~/.config/kitty/greetings.py
+fi
+```
 
 Make the script executable in your terminal
 ```
