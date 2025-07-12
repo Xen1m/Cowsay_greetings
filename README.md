@@ -1,6 +1,7 @@
 # Cowsay_greetings
 ## 🐮 Terminal Joke Greeter
 Displays a random joke and random animal when starting kitty
+```
  _________________________________________
 / I asked my German friend if he knew the \
 \ square root of 81. He said no           /
@@ -19,6 +20,7 @@ Displays a random joke and random animal when starting kitty
                 ~-.__|      /_ - ~ ^|      /- _      `..-'   
                      |     /        |     /     ~-.     `-. _  _  _
                      |_____|        |_____|         ~ - . _ _ _ _ _>
+```
 ## Setup
 Download cowsay and other ascii art animals
 ```
