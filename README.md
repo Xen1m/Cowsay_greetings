@@ -22,9 +22,9 @@ Displays a random joke and random animal when starting kitty
                      |_____|        |_____|         ~ - . _ _ _ _ _>
 ```
 ## Setup
-Download cowsay and other ascii art animals
+Download cowsay and other ascii art animals via your package manager
 ```
-pip install cowsay
+sudo pacman -S cowsay
 ```
 
 Create a jokes.txt file at 
@@ -36,7 +36,7 @@ Write the jokes you want to display into it. Every joke has to be on a new line 
 If you want to use the script only in the kitty terminal paste this into your shell config (~/.bshrc or ~/.zshrc):
 ```
 if [ "$TERM" = "xterm-kitty" ]; then
-    ~/path/to/git/greetings.py
+    ~/path/to/git/repo/greetings.py
 fi
 ```
 
