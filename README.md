@@ -36,7 +36,7 @@ Write the jokes you want to display into it. Every joke has to be on a new line 
 If you want to use the script only in the kitty terminal paste this into your shell config (~/.bshrc or ~/.zshrc):
 ```
 if [ "$TERM" = "xterm-kitty" ]; then
-    ~/.config/kitty/greetings.py
+    ~/path/to/git/greetings.py
 fi
 ```
 
